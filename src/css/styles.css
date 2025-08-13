@@ -1,0 +1,112 @@
+/* =====================
+   NovaTech Styles
+   ===================== */
+
+/* Color Variables */
+:root {
+  --brand-primary: #0d6efd;
+  --brand-secondary: #6f42c1;
+  --brand-dark: #0b2545;
+  --brand-light: #f8f9fa;
+}
+
+/* Body & Text */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Brand Logo */
+.brand-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* Navbar */
+.navbar .nav-link {
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--brand-primary) !important;
+}
+
+/* Page Header */
+.page-header {
+  padding: 100px 0 80px;
+  background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+  color: #fff;
+  margin-top: 56px; /* space for fixed navbar */
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 140px 0 100px;
+  background: linear-gradient(rgba(11, 37, 69, 0.85), rgba(11, 37, 69, 0.85)),
+              url('https://via.placeholder.com/1600x900?text=Tech+Startup+Hero') center/cover no-repeat;
+}
+
+/* Icon Circle */
+.icon-circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #eef2ff, #e5f0ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+/* Gradient CTA Block */
+.bg-gradient-cta {
+  background: linear-gradient(90deg, var(--brand-primary), var(--brand-secondary));
+}
+
+
+/* Hover Effects */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+.img-hover {
+  transition: transform 0.4s ease;
+}
+.img-hover:hover {
+  transform: scale(1.05);
+}
+.btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Fade-in Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+footer a {
+  text-decoration: none;
+}

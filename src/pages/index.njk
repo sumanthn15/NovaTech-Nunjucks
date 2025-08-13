@@ -1,0 +1,111 @@
+{% extends "layouts/base.njk" %}
+{% set title = "NovaTech — Home" %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<header class="hero-section text-light d-flex align-items-center fade-in">
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold mb-3">We Build Digital Products That Scale</h1>
+        <p class="lead mb-4">From idea to launch, NovaTech helps startups and enterprises deliver beautiful, reliable software</p>
+        <a href="services.html" class="btn btn-primary btn-lg me-2">Our Services</a>
+        <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Us</a>
+    </div>
+</header>
+
+<!-- Features -->
+<section class="py-5 fade-in">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Our Expertise</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <div class="card-body">
+              <div class="icon-circle mb-3">⚙️</div>
+              <h5>Product Strategy</h5>
+              <p class="text-muted small">Roadmaps and discovery sessions tailored to your business goals.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <div class="card-body">
+              <div class="icon-circle mb-3">💡</div>
+              <h5>UI/UX Design</h5>
+              <p class="text-muted small">Modern, user-friendly designs that delight and convert.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <div class="card-body">
+              <div class="icon-circle mb-3">🤖</div>
+              <h5>AI Integration</h5>
+              <p class="text-muted small">Machine learning models built and deployed for production.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <div class="card-body">
+              <div class="icon-circle mb-3">☁️</div>
+              <h5>Cloud & DevOps</h5>
+              <p class="text-muted small">Scalable infrastructure and CI/CD pipelines for faster delivery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Portfolio -->
+<section class="py-5 bg-light fade-in">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Recent Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm hover-card">
+            <img src="assets/ecommerce-revamp.jpg" class="card-img-top img-hover" alt="Project" height="300" width="1200">
+            <div class="card-body">
+              <h5>E-commerce Revamp</h5>
+              <p class="small text-muted">45% conversion uplift after redesign and optimization</p>
+              <a href="#" class="small">Learn More →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm hover-card">
+            <img src="assets/ai-chatbot.jpg" class="card-img-top img-hover" alt="Project" height="300" width="1200">
+            <div class="card-body">
+              <h5>AI Chatbot</h5>
+              <p class="small text-muted">Automated customer service with 99% uptime</p>
+              <a href="#" class="small">Learn More →</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm hover-card">
+            <img src="assets/analytics-platform.jpg" class="card-img-top img-hover" alt="Project" height="300" width="1200">
+            <div class="card-body">
+              <h5>Analytics Platform</h5>
+              <p class="small text-muted">Real-time insights for better business decisions</p>
+              <a href="#" class="small">Learn More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 text-center fade-in">
+    <div class="container">
+      <div class="p-5 rounded-4 bg-gradient-cta text-light shadow">
+        <h3 class="fw-bold mb-3">Ready to Launch Your Product?</h3>
+        <p class="mb-4">Get in touch with our team and let's build something amazing</p>
+        <a href="contact.html" class="btn btn-light btn-lg">Get Started</a>
+      </div>
+    </div>
+</section>
+
+{% endblock %}

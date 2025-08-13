@@ -1,0 +1,86 @@
+{% extends "layouts/base.njk" %}
+{% set title = "NovaTech — Services" %}
+
+{% block content %}
+<!-- Page Header -->
+<header class="page-header fade-in">
+    <div class="container text-center text-light">
+      <h1 class="fw-bold">Our Services</h1>
+      <p class="lead">Helping you build, launch, and scale digital products that matter</p>
+    </div>
+</header>
+
+<!-- Services Section -->
+<section class="py-5 fade-in">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <img src="assets/saas-development.jpg" class="card-img-top img-hover" alt="SaaS" height="200" width="900">
+            <div class="card-body">
+              <h5>SaaS Development</h5>
+              <p class="small text-muted">Secure, scalable SaaS platforms with integrated billing & analytics.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <img src="assets/mobile-apps.jpg" class="card-img-top img-hover" alt="Apps" height="200" width="900">
+            <div class="card-body">
+              <h5>Mobile Apps</h5>
+              <p class="small text-muted">Cross-platform mobile solutions with high performance and great UX.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <img src="assets/aiml-concepts.jpg" class="card-img-top img-hover" alt="AI" height="200" width="900">
+            <div class="card-body">
+              <h5>AI Solutions</h5>
+              <p class="small text-muted">Custom machine learning models and AI-powered tools for your business.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm hover-card">
+            <img src="assets/cloud-devops.jpg" class="card-img-top img-hover" alt="Cloud" height="200" width="900">
+            <div class="card-body">
+              <h5>Cloud & DevOps</h5>
+              <p class="small text-muted">Deployment pipelines, monitoring, and cloud infrastructure at scale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Engagement Models -->
+<section class="py-5 bg-light fade-in">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Engagement Models</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm hover-card p-3">
+            <h5>Audit</h5>
+            <p class="small text-muted">2-week technical & product audit with actionable insights</p>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Start Audit</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm hover-card p-3">
+            <h5>Dedicated Team</h5>
+            <p class="small text-muted">Engineers and designers embedded with your roadmap</p>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Get Team</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm hover-card p-3">
+            <h5>Product Partnership</h5>
+            <p class="small text-muted">Long-term partnership with shared milestones & equity</p>
+            <a href="contact.html" class="btn btn-outline-primary btn-sm">Let's Talk</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock %}

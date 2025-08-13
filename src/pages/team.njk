@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+{% set title = "NovaTech — Our Team" %}
+
+{% block content %}
+<!-- Page Header -->
+<header class="page-header fade-in">
+    <div class="container text-center text-light">
+      <h1 class="fw-bold">Meet Our Team</h1>
+      <p class="lead">Passionate innovators dedicated to building great products</p>
+    </div>
+</header>
+
+<!-- Team Section -->
+<section class="py-5 fade-in">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Team Member -->
+        <div class="col-md-4">
+          <div class="card border-1 shadow-sm text-center p-4 hover-card">
+            <img src="assets/aisha-khan.jpg" 
+                 class="rounded-circle mx-auto img-hover mb-3" 
+                 alt="Aisha Khan" style="width:120px;height:120px;object-fit:cover;">
+            <h6 class="mb-0">Aisha Khan</h6>
+            <small class="text-muted">Head of Product</small>
+            <p class="small text-muted mt-2">Product strategy, discovery, and growth hacking expert</p>
+          </div>
+        </div>
+        <!-- Team Member -->
+        <div class="col-md-4">
+          <div class="card border-1 shadow-sm text-center p-4 hover-card">
+            <img src="assets/rajat-mehra.jpg" 
+                 class="rounded-circle mx-auto img-hover mb-3" 
+                 alt="Rajat Mehra" style="width:120px;height:120px;object-fit:cover;">
+            <h6 class="mb-0">Rajat Mehra</h6>
+            <small class="text-muted">Engineering Lead</small>
+            <p class="small text-muted mt-2">Architecture, reliability and performance optimization guru</p>
+          </div>
+        </div>
+        <!-- Team Member -->
+        <div class="col-md-4">
+          <div class="card border-1 shadow-sm text-center p-4 hover-card">
+            <img src="assets/sana-patel.jpg" 
+                 class="rounded-circle mx-auto img-hover mb-3" 
+                 alt="Sana Patel" style="width:120px;height:120px;object-fit:cover;">
+            <h6 class="mb-0">Sana Patel</h6>
+            <small class="text-muted">Data Scientist</small>
+            <p class="small text-muted mt-2">Specialist in AI, ML, and analytics at production scale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{% endblock %}
