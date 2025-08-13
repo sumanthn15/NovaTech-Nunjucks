@@ -31,7 +31,7 @@ The build process is automated using **Gulp** for compiling templates, copying a
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/NovaTech-Nunjucks.git
+git clone https://github.com/sumanthn15/NovaTech-Nunjucks.git
 ```
 
 ### 2️⃣ Install Dependencies
