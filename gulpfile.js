@@ -54,6 +54,12 @@ function watchFiles() {
   gulp.watch(paths.assets, assets);
 }
 
+//build
+exports.build = gulp.series(
+  clean,
+  gulp.parallel(nunjucks, css, assets)
+);
+
 // Default task
 exports.clean = clean;
 exports.default = gulp.series(
