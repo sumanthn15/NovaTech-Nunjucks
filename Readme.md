@@ -32,39 +32,24 @@ The build process is automated using **Gulp** for compiling templates, copying a
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/YOUR-USERNAME/NovaTech-Nunjucks.git
-
-cd NovaTech-Nunjucks
+```
 
 ### 2️⃣ Install Dependencies
-'''bash
+```bash
 npm install
+```
+
 ### 3️⃣ Start Development Server
-'''bash
+```bash
 npx gulp
-
-Runs BrowserSync for live reloading
-
-Watches for file changes in .njk, .css, and asset files
+```
 
 ### 4️⃣ Build for Production
-'''bash
+```bash
 gulp build
-
-Compiles Nunjucks templates
-
-Copies assets
-
-Outputs the final site in the dist/ folder
+```
 
 ### 5️⃣ Open in Browser
-Open the file:
-'''bash
-dist/index.html
-in your preferred browser.
-
-📌 Project Context
-This project was developed as Task 2 for a company assessment.
-It is a conversion of Task 1 (original HTML/CSS/Bootstrap version) into a Nunjucks + Gulp setup, fulfilling the requirement to use a templating engine and an automated build process.
-
-📄 License
-This project is open-source and available under the MIT License.
+```bash
+http://localhost:3000
+```
